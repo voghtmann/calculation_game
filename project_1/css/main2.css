@@ -1,0 +1,650 @@
+/* ALL */
+
+@import url(http://fonts.googleapis.com/css?family=Wellfleet);
+
+
+
+#btnEnterAnswer {
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    background: black;
+    font-family: 'WellFleet', times, serif;
+    font-size: 24px;
+    padding: 20px;
+    width: 100%;
+    background-color: black;
+    /*	border: 1px solid #FF66CC;*/
+    background: -webkit-linear-gradient(top, #FF99CC, #FF99CC, #FF66CC);
+    background: -moz-linear-gradient(top, #FF99CC, #FF99CC, #FF66CC);
+    background: -ms-linear-gradient(top, #FF99CC, #FF99CC, #FF66CC);
+    -webkit-appearance: none;
+}
+
+#btnEnterAnswer:hover {
+    color: white;
+    /*	border: 1px solid #FF66DD;*/
+    overflow: hidden;
+/*    border-radius: 12px;*/
+    width: 100%;
+/*    border: 1px solid #FF66DD;*/
+    background-color: black;
+    background: -webkit-linear-gradient(top, #FF99DD, #FF99DD);
+    background: -moz-linear-gradient(top, #FF99DD, #FF99DD);
+    background: -ms-linear-gradient(top, #FF99DD, #FF99DD);
+    box-shadow: 0px 12px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+#mainselection select {
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    background: black;
+    font-family: 'WellFleet', times, serif;
+    font-size: 24px;
+    padding: 20px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid #FF66CC;
+    background: -webkit-linear-gradient(top, #FF99CC, #FF99CC, #FF66CC);
+    background: -moz-linear-gradient(top, #FF99CC, #FF99CC, #FF66CC);
+    background: -ms-linear-gradient(top, #FF99CC, #FF99CC, #FF66CC);
+    -webkit-appearance: none;
+}
+
+#mainselection:hover {
+    color: white;
+    /*	border: 1px solid #FF66DD;*/
+    overflow: hidden;
+    border-radius: 12px;
+    width: 100%;
+    border: 1px solid #FF66DD;
+    background-color: black;
+    background: -webkit-linear-gradient(top, #FF99DD, #FF99DD);
+    background: -moz-linear-gradient(top, #FF99DD, #FF99DD);
+    background: -ms-linear-gradient(top, #FF99DD, #FF99DD);
+    box-shadow: 0px 12px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+/*
+#mainselection:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);}
+*/
+
+button.orange {
+    color: white;
+    border-radius: 12px;
+    font-family: 'Wellfleet', times, serif;
+    font-size: 24px;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #FF66CC;
+    background: -webkit-linear-gradient(top, #FF99CC, #FF66CC);
+    background: -moz-linear-gradient(top, #FF99CC, #FF66CC);
+    background: -ms-linear-gradient(top, #FF99CC, #FF66CC);
+}
+
+button.orange:hover {
+    border: 1px solid #FF66DD;
+    background: -webkit-linear-gradient(top, #FF99DD, #FF66DD);
+    background: -moz-linear-gradient(top, #FF99DD, #FF66DD);
+    background: -ms-linear-gradient(top, #FF99DD, #FF66DD);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+button.orange:active {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#enterAnswer {
+    background-color: #3A393F;
+	border: 1px solid white; 
+    color: white;
+    font-family: 'Wellfleet', times, serif;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+}
+
+body,
+html {
+    width: 100%;
+  
+}
+
+body {
+    font-family: 'Wellfleet', times, serif;
+	color: white;
+    font-family: 'WellFleet', times, serif;
+    font-size: 24px;
+    background-color: darkgray;
+}
+
+.outerContainer {
+    display: flex;
+    flex-direction: row padding-bottom: 10px;
+    background: darkgrey;
+    width: auto;
+    height: 750px;
+}
+
+#gamePlayScreen {
+    height: 700px;
+    width: 700px;
+    background-image: url('../images/blackboard.png');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#score_icon_1 {
+	height: 70%;
+	width: 70%;
+	padding-top: 15px;
+}
+
+#openingScreen {
+    /*background: url('../images/mybc.jpg') no-repeat center center fixed;*/
+    background-color: deeppink;
+    width: auto;
+    height: auto;
+}
+
+#icon {
+    float: right;
+    margin: 0px 30px 0px 0px;
+    height: 40%;
+    width: 40%;
+}
+
+.container {
+    display: flex;
+    /* or inline-flex */
+    flex-direction: row padding-bottom: 10px;
+/*    border: 1px solid #000;*/
+    margin: 20px;
+    /*background-image: url('../images/mybc.jpg');*/
+}
+
+
+#welcome {
+    font-size: 100%;
+}
+
+#title {
+    padding-top: 40px;
+    font-size: 150%;
+    font: bold;
+    color: black;
+}
+
+#questionBox {
+    display: flex;
+    flex-direction: row padding-bottom: 10px;
+/*	border: 5px solid red;*/
+	justify-content: center;
+}
+
+#outerGamePlayScreen {
+    display: flex;
+    flex-direction: column padding-bottom: 10px;
+    visibility: hidden;
+    justify-content: center;
+    background-color: deeppink;
+
+}
+
+#outerEndScreen {
+    visibility: hidden;
+    background-color: deeppink;
+    display: flex;
+    flex-direction: column padding-bottom: 10px;
+}
+
+/*content */
+#description {
+
+    background-position: center center;
+    text-align: center;
+
+    align-content: space-around;
+}
+
+#question {
+    font-size: 300%;
+    /*    margin-right: 200px;*/
+}
+
+#feedbackMes {
+
+    transition: content .4s ease-in-out;
+	background-image: 200%;
+	padding-top: 60px;
+    padding-right: 50px;
+}
+
+#feedback.box1 {
+
+    height: 150px;
+    width: 150px;
+    padding-top: 70px;
+}
+
+#feedbackOuter.box1 {
+
+    height: 150px;
+    width: 150px;
+}
+
+#textdisplay.box1 {
+
+    height: 150px;
+    width: 150px;
+}
+
+#display {
+    padding-left: 0px;
+	padding-top: 110px;
+    font-size: 30px;
+}
+
+#txtEndTitle {
+    text-align: center;
+
+}
+
+#gameEndScreen {
+  
+}
+
+#txtEndMessage {
+/*    border: 5px color blue;*/
+    margin-left: 10px;
+    /*
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 120px;
+*/
+/*
+    background-image: url('../images/speech.png');
+    background-size: 100%;
+*/
+    min-height: 250px;
+    color: black;
+}
+
+#level.box1.inner {
+    text-align: center;
+}
+
+#start {
+    text-align: center;
+}
+
+#playAgain {
+    text-align: center;
+}
+
+#finishLink {
+    text-align: center;
+}
+
+#livesLeft.box1.inner {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#currentScore.box1.inner {
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+
+img {
+
+     Set up proportionate scaling 
+    width: 40%;
+    height: auto;
+
+    object-fit: cover;
+*/
+
+
+ul {
+    margin: 0 0 15px 0;
+}
+
+ul li {}
+
+#progressBar {
+    width: 70%;
+    margin: 10px auto;
+    height: 22px;
+    background-color: lightpink;
+}
+
+#progressBar div {
+    height: 100%;
+    text-align: right;
+    padding: 0 10px;
+    line-height: 22px;
+    /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: deeppink;
+    box-sizing: border-box;
+}
+
+.box1 {
+
+    height: auto;
+    width: auto;
+/*    border: 5px solid green;*/
+    padding: 5px;
+/*    align-content: space-around;*/
+}
+
+
+
+
+/*MEDIA OVERIDDES */
+@media only screen and (min-width: 700px) {
+
+    .outerContainer {
+        display: flex;
+        flex-direction: column padding-bottom: 10px;
+/*        border: 1px solid orange;*/
+        margin: 20px;
+/*        align-content: left;*/
+        background-color: darkgray;
+    }
+    
+    #finalWord {
+    height:300px;
+    width:300px;
+    
+    background-image: url('../images/mybc_finalword.png');
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    float:right;
+    align-content: 
+    
+}
+
+    #txtMessage {
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+    text-align: center;
+    padding-left: 110px;
+    margin-right: right: 110px;
+    }
+    
+    #txtbubble.box1 {
+        height: 300px;
+        width: 530px;
+        padding-left: 70px;
+        padding-bottom: 100px;
+        padding-right: 50px;
+        background-image: url('../images/speech.png');
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+   
+    #title {
+        padding-top: 10px;
+        font-size: 300%;
+        font: bold;
+        color: black;
+    }
+
+    #controls.box1 {
+        display: flex;
+        flex-direction: row padding-bottom: 10px;
+/*        border: 5px solid blue;*/
+        margin-top: 40px;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    #endBox {
+        display: flex;
+        flex-direction: row padding-bottom: 10px;
+/*        border: 5px solid blue;*/
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+
+    #textInput {
+        display: flex;
+        flex-direction: row padding-bottom: 10px;
+/*        border: 5px solid blue;*/
+        justify-content: space-around;
+    }
+	
+	#userInput.box1 {
+        
+/*        border: 5px solid blue;*/
+        width: 150px;
+		font-size: 22px;
+    }
+
+    .screen {
+
+/*        border: 1px solid red;*/
+        margin: 20px;
+        width: 100%;
+
+    }
+    
+    #level.box1.inner{
+        margin-right: 80px;
+    }
+
+    .box1 .inner {
+        display: flex flex-direction: row padding-bottom: 0px;
+        text-align: center;
+
+    }
+
+    #progress {
+        display: flex;
+        flex-direction: row padding-bottom: 10px;
+/*        border: 5px solid blue;*/
+        justify-content: space-between;
+        margin-bottom: 60px;
+
+    }
+
+
+
+    #finishLink {
+        /*        padding margin-right: 50px;*/
+    }
+
+
+    .container {
+
+        display: flex;
+        /* or inline-flex */
+        flex-direction: row padding-bottom: 10px;
+        border: 1px solid #000;
+        /*        margin: 20px;*/
+    }
+
+    .box {
+        border: 5px solid pink;
+        /*        margin: 5px;*/
+        padding: 5px;
+
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        /*        margin: 20px;*/
+    }
+    
+    #txtEndMessage {
+/*    border: 5px color blue;*/
+    margin-left: 20px;
+}
+
+
+}
+/* SMALL DEVICES*/
+@media screen and (max-width: 700px) {
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #description {
+        background-image: url('../images/small_icon.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        text-align: center;
+
+        align-content: space-around;
+    }
+    
+    #txtMessage {
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+    text-align: center;
+ 
+    }
+    
+    #txtbubble.box1 {
+        height: 250px;
+        width: 200px;
+        padding-bottom: 50px;
+        padding-right: 165px;
+        background-image: url('../images/speech_small.png');
+        background-size: 60%;
+        background-repeat: no-repeat; 
+    }
+    
+    #finalWord {
+    height:100px;
+    width:100px;
+    background-image: url('../images/small_icon.png');
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    float:right;
+    }
+
+    #icon {
+        visibility: hidden
+    }
+    
+    #currentScore.box1.inner {
+        text-align: center;
+        padding-left: 90px;
+        
+        height: 60px;
+    }
+    
+    #livesLeft.box1.inner {
+        text-align: center;
+        padding-left:120px;
+        height: 50px;
+    }
+    
+    #stats.box1{
+        height 250px;
+    }
+
+    .box1 {
+
+        height: auto;
+        width: auto;
+/*        border: 1px solid red;*/
+
+/*        border: 5px solid green;*/
+        margin: 5px;
+        padding: 5px;
+
+    }
+    
+     div#level.box1.inner{
+        align-content: center;
+        text-align: center;
+/*        height:100px;*/
+    }
+    h4 {
+        padding: 30px;
+        margin: 0px;
+    }
+    
+    #mainselection {
+        padding-top: none;
+    }
+
+    .box1 .inner {
+        display: flex flex-direction: row padding-bottom: 0px;
+        text-align: center;
+    }
+    #mainselection {
+        padding-top: 5px;
+    }
+
+    #txtEndMessage {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    
+     #progressBox.box1 {
+        height: 50px;
+    }
+    
+    
+    #questionBox.box1 {
+    display: flex;
+    flex-direction: row;
+/*	border: 5px solid red;*/
+	justify-content: center;
+}
+    
+    #gamePlayScreen {
+    background-image: url('../images/blackboard.png');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+    #userInput.box1.inner {
+        
+/*        border: 5px solid blue;*/
+		font-size: 22px;
+        display: flex flex-direction: row padding-bottom: 0px;
+        text-align: center;
+    }
+    
+    #feedbackOuter.box1{
+        display: flex flex-direction: row padding-bottom: 0px;
+        text-align: center;
+    }
+    
+    #textdisplay.box1{
+        display: flex flex-direction: row;
+        text-align: center;
+        height: 100px;
+    }
+    
+    #outerEndScreen {
+    visibility: hidden;
+    background-color: deeppink;
+    display: flex;
+    flex-direction: column padding-bottom: 10px;
+    
+    }
+    /* END MEDIA QUERY */

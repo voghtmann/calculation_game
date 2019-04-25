@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Make Your Brain Count</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="scripts/main6.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+</head>
+
+<body>
+
+	<div class="outerContainer" id="outerOpeningScreen">
+
+		<div class="screen" id="openingScreen">
+
+			<div class="box1" id="description">
+
+				<h1 id="title">MAKE YOUR BRAIN COUNT</h1>
+
+				<h3 id="welcome">Answer a selection of rapid fire mental arithmetic questions against the clock. 3 wrong answers will end the game.</h3>
+				<img src="images/mybc_icon.png" id="icon" alt="" />
+			</div>
+
+			<div class="box1" id="controls">
+				<div class="box1" id="controls">
+					<div class="box1 inner" id="level">
+						<h4>Select a level ...</h4>
+						<div id="mainselection">
+							<select id="difficulty">
+								<option value="1" selected>Level 1</option>
+								<option value="2">Level 2</option>
+								<option value="3">Level 3</option>
+							</select>
+						</div>
+					</div>
+					<div class="box1 inner" id="start">
+						<h4>Let's go!</h4>
+						<button class="orange" id="btnStartGame">Start</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="outerContainer" id="outerGamePlayScreen">
+		<div class="screen" id="gamePlayScreen">
+			<div class="box1" id="stats">
+				<div class="box1" id="progress">
+					<div class="box1 inner" id="livesLeft">
+<!--						<p id="lives">Lives</p>-->
+						<p id="score">Score</p>
+						<!--
+						<div id="lifeBox1">
+							<img src="images/small_icon.png" id="score_icon_1" alt="" />
+						</div>
+						<div id="lifeBox2">
+							<img src="images/small_icon.png" id="score_icon_1" alt="" />
+						</div>
+						<div id="lifeBox3">
+							<img src="images/small_icon.png" id="score_icon_1" alt="" />
+						</div>
+					</div>
+-->
+					
+					</div>
+						<div class="box1 inner" id="currentScore">
+							<p id="lives">Lives:</p>
+							<!--						<p id="score">Score</p>-->
+							<div id="lifeBox1">
+								<img src="images/small_icon.png" id="score_icon_1" alt="" />
+							</div>
+							<div id="lifeBox2">
+								<img src="images/small_icon.png" id="score_icon_1" alt="" />
+							</div>
+							<div id="lifeBox3">
+								<img src="images/small_icon.png" id="score_icon_1" alt="" />
+							</div>
+						</div>
+				</div>
+				<p><span id="countdowntimer"></span></p>
+
+				<div id="progressBar">
+					<div class="bar"></div>
+				</div>
+			</div>
+
+			<div id="questionBox">
+				<div class="box1" id="textdisplay">
+					<div id="display">
+						<h2></h2>
+					</div>
+				</div>
+				<div class="box1" id="userInput">
+					<p>Enter your answer</p>
+					<input type="text" size="15" id="enterAnswer"><br><br>
+					<input type="submit" id="btnEnterAnswer" value="Submit"><br><br>
+				</div>
+				<div class="box1" id="feedbackOuter">
+					<div class="box1" id="feedback">
+						<div id="feedbackMes">
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="outerContainer" id="outerEndScreen">
+		<div class="screen" id="gameEndScreen">
+
+			<div class="box1" id="message">
+				<div>
+					<h1 id="txtEndTitle">Game Over</h1>
+				</div>
+				<div class="box1" id="txtMessage">
+					<div class="box1" id="txtbubble">
+						<h2 id="txtEndMessage">Final Score</h2>
+					</div>
+				</div>
+                <div class="box1" id="finalWord"></div>
+			</div>
+			<div class="box1" id="endBox">
+
+				<div class="box1"  id="playAgain">
+					<button class="orange" id="btnReplay">Play Again</button>
+				</div>
+				<div class="box1">
+					<button class="orange" onclick="self.close()">Exit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="scripts/main.js"></script>
+</body>
+
+</html>
